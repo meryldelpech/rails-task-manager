@@ -1,0 +1,9 @@
+<h1>Add a new Task</h1>
+
+<%= form_for(@task) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title, placeholder: 'le wagon', class: "input"%>
+  <%= f.label :details %>
+  <%= f.text_field :details, placeholder: 'rails, MVC', class: "input" %>
+  <%= f.submit class: 'btn btn-primary'%>
+<% end %>

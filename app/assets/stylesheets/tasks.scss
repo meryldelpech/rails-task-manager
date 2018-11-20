@@ -1,0 +1,32 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  background-color: white;
+}
+
+body {
+  width: 70%;
+  margin: auto !important;
+  padding: 30px 50px;
+  background-color: #D23D33 !important;
+  color: white !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.input {
+  color: black;
+}
+
+.btn {
+  color: black;
+}
